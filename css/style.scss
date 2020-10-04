@@ -196,21 +196,24 @@ nav{
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    text-shadow: 2px 2px 8px black;
+    h2, p{
+        text-shadow: 2px 2px 8px black;
+    }
     h2{
         font-family: lobster;
     }
     
         label{
-            background-color: rgb(12, 12, 56);
+            background-color: $color-hover;
             color: white;
+            font-weight: 600;
             padding: 4px 10px;
             margin-bottom: 0;
             box-shadow: black 2px 2px 6px;
         }
         input{
             border-radius: 0;
-            border: 2px solid rgb(12, 12, 56);
+            border: 2px solid $color-hover;
             background-color: rgba($color: #fff, $alpha: 0.2);
             margin-left: 20px;
             width: 55%;
@@ -350,8 +353,7 @@ nav{
     }
 }
 .bg-ct-2{
-    height: 65vh;
-    padding-top: 100px;
+    padding: 100px 0;
     input{
         border-radius: 0;
         border: 1px solid gray;

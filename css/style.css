@@ -171,19 +171,21 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: white;
-  text-shadow: 2px 2px 8px black; }
+  color: white; }
+  .bg-5 h2, .bg-5 p {
+    text-shadow: 2px 2px 8px black; }
   .bg-5 h2 {
     font-family: lobster; }
   .bg-5 label {
-    background-color: #0c0c38;
+    background-color: #eccb0d;
     color: white;
+    font-weight: 600;
     padding: 4px 10px;
     margin-bottom: 0;
     box-shadow: black 2px 2px 6px; }
   .bg-5 input {
     border-radius: 0;
-    border: 2px solid #0c0c38;
+    border: 2px solid #eccb0d;
     background-color: rgba(255, 255, 255, 0.2);
     margin-left: 20px;
     width: 55%;
@@ -297,8 +299,7 @@ nav {
           text-decoration: none; }
 
 .bg-ct-2 {
-  height: 65vh;
-  padding-top: 100px; }
+  padding: 100px 0; }
   .bg-ct-2 input {
     border-radius: 0;
     border: 1px solid gray;
